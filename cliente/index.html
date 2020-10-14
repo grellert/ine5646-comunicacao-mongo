@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="app.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="style.css"></script>
+    </head>
+    <body>
+        <p> Olá! </p>
+        
+        <form id="userform" action="/registeruserform" method="get">
+            <label> Usuário </label><br>
+            <input type="text" name="user"> <br>
+            <label> E-mail </label><br>
+            <input type="text" name="mail"> <br>
+            <button type="submit"> Cadastrar (GET/POST) </button> <br>
+            <button id="fetch-post" type="button"> Cadastrar com fetch/POST</button> <br>
+            <button id="fetch-geturl" type="button"> Cadastrar com fetch/GET+URL</button> <br>
+        </form>
+    </body>
+
+</html>
